@@ -1,0 +1,86 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(stock/bg.gif)no-repeat;
+    background-size: 1600px 850px;
+}
+
+#container {
+    position: relative;
+    height: 400px;
+    width: 90%;
+    margin-left: 4%;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: -1px -1px 60px 10px black ;
+    background: rgba(0, 0, 0, 0,4);
+}
+
+#bird {
+    position: absolute;
+    background: url('stock/bird.png');
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.pole {
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    background-image:radial-gradient(#c2c2a3,#000000);
+    right: -50px;
+}
+
+#pole_1 {
+    top: 0;
+}
+
+#pole_2 {
+    bottom: 0;
+}
+
+#score_div {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+#drop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+    display: none;
+    height: 850px;
+    text-align: center;
+}
+#fscore{
+    font-size: 55px;
+    font-family: sans-serif;
+  margin: 50px;
+}
+#restart_btn{
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    margin: 50px;
+    color: white;
+    background:#00b300;
+    box-shadow: -1px -1px 60px 10px black ;
+}
+#restart_btn:hover {
+    background-color: #3e8e41;
+    font-size: 28px;
+}

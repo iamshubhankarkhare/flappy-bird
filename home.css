@@ -1,0 +1,45 @@
+
+.row{
+    background-attachment: fixed;
+   background:url(stock/bg.gif)no-repeat; 
+    background-size: 1600px 850px;
+}
+.col-md-4{
+    height: 500px;
+    width: 300px;
+    background-image: contain;
+    margin-left: 55px;
+    margin-top: 40px;
+    margin: 90px;
+}
+#bird{
+    height: 400px;
+    width: 400px;
+    margin-right: 55px;
+    /* margin-top: 500 px; */
+}
+.col-md-8{
+    margin-top: 30px;
+    height: 600px;
+    border:1px solid black;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: -1px -1px 60px 10px black ;
+    background: rgba(0, 0, 0, 0,4);
+}
+h1{
+    font-size: 85px;
+    padding: 25px;
+    font-family: cursive;
+}
+p{
+    padding: 5px;
+    font-size: 18px;
+}
+.btn{
+    height: 50px;
+    width: 170px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
